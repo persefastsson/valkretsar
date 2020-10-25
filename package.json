@@ -1,0 +1,17 @@
+{
+  "name": "valkretsar",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/persefastsson/valkretsar.git",
+  "author": "Per Sefastsson <per.sefastsson@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "files": ["lib/**/*"],
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
