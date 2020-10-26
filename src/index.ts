@@ -39,7 +39,7 @@ export const valkretsar = [
   "Östergötlands län",
 ] as const;
 
-const kommuner = [
+export const kommuner = [
   "Ale",
   "Alingsås",
   "Alvesta",
@@ -332,9 +332,9 @@ const kommuner = [
   "Övertorneå",
 ] as const;
 
-type Valkrets = typeof valkretsar[number];
+export type Valkrets = typeof valkretsar[number];
 
-type Kommun = typeof kommuner[number];
+export type Kommun = typeof kommuner[number];
 interface KommunMedValkrets {
   [key: string]: Valkrets;
 }
